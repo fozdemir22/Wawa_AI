@@ -4,14 +4,21 @@ A small language model built **completely from scratch**: own tokenizer, own Tra
 
 ## Download
 
-Windows app: see **[Releases](../../releases)** → download `WawaAI-v0.1-windows.zip` → unzip → double-click `WawaAI.exe`.
-Windows 10/11, 64-bit. No Python, no internet, no graphics card needed.
+See **[Releases](../../releases)**:
+
+| App | File | Needs |
+|---|---|---|
+| Windows | `WawaAI-v0.2-windows.zip` → unzip → `WawaAI.exe` | Windows 10/11, 64-bit |
+| Android — WawaAI 2 (184M) | `WawaAI-2-General-184M.apk` | Android 9+, 64-bit |
+| Android — WawaAI 1 (98M, faster) | `WawaAI-1-General-98M.apk` | Android 9+, 64-bit |
+
+Everything runs on your own device. Chatting works offline; the Wikipedia button and weather questions use the internet.
 
 | Version | Model | Status |
 |---|---|---|
-| v0.1 | WawaAI General 98M | released |
-| v0.2 | WawaAI General+ 184M with web search | in training |
-| v0.3 | ~350M with Translate + Code | planned |
+| v0.1 | WawaAI 1 General 98M | released |
+| v0.2 | WawaAI 2 General 184M — Wikipedia, memory, weather, Android apps | released |
+| next | bigger models (Translate, Code) | planned |
 
 WawaAI is an experiment and often states wrong things confidently. Never follow its advice on health, safety, money or law.
 
